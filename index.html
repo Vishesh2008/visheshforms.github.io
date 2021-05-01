@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Google Forms</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="ctrlqFormContentWrapper">
+        <div class="ctrlqHeaderMast"></div>
+        <div class="ctrlqCenteredContent">
+            <div class="ctrlqFormCard">
+                <div class="ctrlqAccent"></div>
+                <div class="ctrlqFormContent">
+
+                    <form>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <h2>Candidate Interview Form</h4>
+                                <p>All fields required</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="name" name="name" type="text" class="validate" data-error="#e1" required>
+                                <label for="name">Your Name</label>
+                                <div id="el"></div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" name="email" type="text" class="validate" data-error="#e2" required>
+                                <label for="email">Your Email</label>
+                                <div id="e2"></div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select id="gender" name="gender" class="validate" data-error="#e3" required>
+                                    <option value="" disabled selected>Choose Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Female">Others</option>
+                                </select>
+                                <div id="e3"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <p for="color">Favourite Pet</p>
+                                <div>
+                                    <input name="color" type="radio" id="color_red" value="Red" date-error="#e4" required>
+                                    <label for="color_red">Dogs</label>
+                                </div>
+                                <p>
+                                    <input name="color" type="radio" id="color_green" value="Green">
+                                    <label for="color_green">Cats</label>
+                                </p>
+                                <p>
+                                    <input name="color" type="radio" id="color_blue" value="Blue">
+                                    <label for="color_blue">Fishes</label>
+                                </p>
+                                <div class="input-field">
+                                    <br>
+                                    <div id="e4"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <label for="birthdate"></label>
+                                    <input type="date" id="birthdate" class="datepicker" name="birthdate" data-error="#e5" required>
+                                    <div id="e5"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col m6 s12">
+                                <button type="submit" class="waves-effect waves-light btn-large"><i class="material-icons submit"></i></button>
+                                
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <a href="https://vishesh2008.github.io/signin1.github.io/" target="_blank" title="Youtube Up">
+            <i class="large material-icons">live_help</i>
+        </a>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>-->
+
+</body>
+</html>
